@@ -3,6 +3,7 @@ import { galleryItems } from './gallery-items.js';
 const galleryList = document.querySelector('.gallery');
 let instance = null;
 
+
 galleryItems.forEach(item => {
   const listItem = document.createElement('li');
   listItem.classList.add('gallery__item');
